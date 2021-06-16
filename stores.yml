@@ -1,8 +1,3 @@
-spring:
-  data:
-    mongodb:
-      uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
-
 stores:
   a: abcdefg123
   b: tuvwxyz456
